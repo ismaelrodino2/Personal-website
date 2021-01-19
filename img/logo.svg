@@ -1,0 +1,33 @@
+<svg width="166" height="49" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="51" width="168" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <g stroke="null" id="svg_23">
+   <g stroke="null" transform="matrix(0.9332411506417843,0,0,0.7223348852997163,56.38031909399901,62.75934628824848) " id="svg_20">
+    <title stroke="null" transform="translate(-2.143068790435791,-8.306396484375) translate(-1.0715343952178955,2.768798828125) translate(-5.861454963684082,-2.2135658264160156) translate(-268.6500244140625,-275.5889587402344) translate(218.74998474121094,0) translate(0,198.81246948242188) ">background</title>
+    <rect stroke="null" x="-59.9761" y="-85.52765" width="177" height="64" id="svg_18" fill="#fff"/>
+    <g stroke="null" id="svg_17" display="none">
+     <rect stroke="null" id="svg_21" width="800" height="600" x="-58.9761" y="-84.52765" stroke-width="0" fill="url(#gridpattern)"/>
+    </g>
+   </g>
+   <g stroke="null" transform="matrix(0.9332411506417843,0,0,0.7223348852997163,56.38031909399901,62.75934628824848) " id="svg_22">
+    <title stroke="null" transform="translate(-2.143068790435791,-8.306396484375) translate(-1.0715343952178955,2.768798828125) translate(-5.861454963684082,-2.2135658264160156) translate(-268.6500244140625,-275.5889587402344) translate(218.74998474121094,0) translate(0,198.81246948242188) ">Layer 1</title>
+    <rect stroke="#000" fill="#fff" stroke-width="1.5" x="-50.4761" y="-78.57452" width="96.00001" height="33.00001" id="svg_16" rx="20"/>
+    <line stroke="#000" fill="none" stroke-width="1.5" x1="-13.4761" y1="-45.57451" x2="-13.4761" y2="-32.5745" id="svg_15" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+    <line stroke="#000" fill="none" stroke-width="1.5" x1="-29.47609" y1="-32.5745" x2="20.52391" y2="-32.5745" id="svg_14" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+    <text stroke="#000" fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="44.02391" y="-31.07451" id="svg_13" font-size="65" font-family="sans-serif" text-anchor="start" xml:space="preserve">IR</text>
+    <line stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="2.5239" y1="-45.07451" x2="2.5239" y2="-33.0745" id="svg_12" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+    <rect stroke="#000" fill="none" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x="-56.72606" y="-83.30107" width="171.49992" height="58.49997" id="svg_11"/>
+   </g>
+  </g>
+ </g>
+</svg>

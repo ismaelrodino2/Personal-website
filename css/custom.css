@@ -1,0 +1,105 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out .2s;
+}
+#header.active{
+    position: fixed;
+    background: #ffffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+    z-index: 9999;
+}
+#header .navbar-collapse{
+    width: auto;
+}
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+    border-bottom: solid 4px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--secoundary);
+    color: var(--secoundary);
+}
+#slider{
+    color: rgba(255, 255, 255, 0.932);
+    background: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7) ) ,
+    url('img/fundo.jpg');
+    
+}
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#sobre{
+    color: white;
+    background-image: linear-gradient(#2c2417e0, rgb(255, 255, 255));
+}
+
+#profissional a.destaque{
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out .2s;
+}
+#profissional a.destaque:hover{
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .12);
+    transform: scale(1.05);
+}
+#profissional a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+#profissional a.destaque .img-container img{
+    max-height: 160px;
+}
+#contato ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+#contato ul li{
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+#contato ul li:first-child{
+    margin-left: 0;
+}
+#contato ul li a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out .2s;
+}
+#contato ul li a:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    background-color: white;
+}
+#contato ul li img{
+    max-height: 30px;
+}
