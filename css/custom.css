@@ -33,7 +33,7 @@ body, html{
     rgba(0,0,0,0.7),
     rgba(0,0,0,0.7) ) ,
     url('../img/fundo.jpg');
-    
+    height: 100vh;
 }
 #slider h1{
     text-transform: uppercase;
@@ -72,11 +72,16 @@ body, html{
 #profissional a.destaque .img-container img{
     max-height: 160px;
 }
+#contato{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
 #contato ul{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
 }
 #contato ul li{
     display: flex;
@@ -86,20 +91,13 @@ body, html{
 #contato ul li:first-child{
     margin-left: 0;
 }
-#contato ul li a{
-    display: flex;
-    width: 40px;
-    height: 40px;
+#contato img{
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
     background-color: transparent;
-    transition: all ease-out .2s;
 }
-#contato ul li a:hover{
+#contato img:hover:not(.logo){
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
     background-color: white;
+    cursor: pointer;
 }
-#contato ul li img{
-    max-height: 30px;
-}
+
