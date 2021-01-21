@@ -30,8 +30,8 @@ body, html{
 #slider{
     color: rgba(255, 255, 255, 0.932);
     background: linear-gradient(
-    rgba(0,0,0,0.7),
-    rgba(0,0,0,0.7) ) ,
+    rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8) ) ,
     url('../img/fundo.jpg');
     height: 100vh;
 }
@@ -43,11 +43,15 @@ body, html{
     font-size: 18px;
     text-transform: uppercase;
 }
+#slider img{
+    filter: drop-shadow(15px 15px 10px #000000);
+}
 #sobre{
     color: white;
-    background-image: linear-gradient(#2c2417e0, rgb(255, 255, 255));
+    background-image: linear-gradient(#110e09e0, rgba(255, 255, 255, 0.979));
 }
-
+#sobre img{
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.733));}
 #profissional a.destaque{
     display: block;
     background: var(--light);
@@ -96,8 +100,13 @@ body, html{
     background-color: transparent;
 }
 #contato img:hover:not(.logo){
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    box-shadow: 6px 4px 11px 2px rgba(0,0,0,0.49);
     background-color: white;
     cursor: pointer;
 }
-
+#portfolio img{
+    box-shadow: 6px 4px 11px 2px rgba(0,0,0,0.49);
+}
+footer a{
+    text-decoration: none;
+}
