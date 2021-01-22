@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ismael Rodino</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -23,10 +25,10 @@
               <a class="nav-link active" aria-current="page" href="#slider">Página inicial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sobre">Sobre mim</a>
+              <a class="nav-link" href="#ref">Sobre mim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#container">Profissional</a>
+              <a class="nav-link" href="#ref1">Profissional</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfólio</a>
@@ -52,7 +54,7 @@
             </div>
             <div class="col-md-12 text-center pt-5">
               <h4 class="mb-4">Devenvolvedor front-end JavaScript/CSS/HTML</h4>
-              <a href="#sobre" class="btn button-primary btn-primary d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba mais</a>
+              <a href="#ref" class="btn button-primary btn-primary d-md-inline-block d-block mb-md-0 mb-2 mr-md-2" id="ref">Saiba mais</a>
               <a href="#contato" class="btn button-primary-outline  btn-outline-primary d-md-inline-block d-block">Contato</a>
             </div>
           </div>
@@ -70,9 +72,11 @@
       <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1">
         <h2 class="title">Bem vindo!</h2>
         <h4 class="subtitle">Sobre mim</h4>
-        <p>Estudante proativo, atualmente cursando o último ano de Bacharelado em fisica na UFRGS e apaixonado por programação. Há um ano me especializando em desenvolvimento web, estudando por conta própria e desenvolvendo projetos pessoais. Atualmente em busca de um estágio de frontend que me proporcione desafios para melhorar minhas habilidades, em uma empresa que acredita no crescimento de seus colaboradores.
-        </p>
-        <a href="cv.pdf" class="btn btn-primary button-primary" download="Baixar currículo">Download currículo</a>
+        <div class="escuro" id='ref1'>
+          <p>Estudante proativo, atualmente cursando o último ano de Bacharelado em fisica na UFRGS e apaixonado por programação. Há um ano me especializando em desenvolvimento web, estudando por conta própria e desenvolvendo projetos pessoais. Atualmente em busca de um estágio em front-end que me proporcione desafios para melhorar minhas habilidades, em uma empresa que acredita no crescimento de seus colaboradores.
+          </p>
+        </div>
+        <a href="cv.pdf" class="btn btn-primary button-primary m-2" download="Baixar currículo" id="ref1">Download currículo</a>
       </div>
     </div>
   </div>
@@ -170,11 +174,11 @@
 
 <!--CONTATO-->
 <div id="contato">
-  <h5 class="tittle text-center">Contato</h5>
+  <h2 class="tittle text-center">Contato</h2>
   <div class="contato py-2">
     <div class="row">
-      <div class="col-md-2">
-        <img class="logo" src="img/logo.svg" alt="logo">
+      <div class="logo col-md-2">
+        <img class="l" src="img/logo.svg" alt="logo">
       </div>
       <div class="col-md-8 align-self-center text-center text-md-left">
         <a href="https://join.skype.com/invite/t7UU23UWeldL" target="_blank"><img src="img/skype.svg" alt="skype"></a>

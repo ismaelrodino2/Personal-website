@@ -22,4 +22,10 @@
         padding-top: 30px;
         justify-content: center;
     }
+    .logo{
+        padding-right: 150px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }

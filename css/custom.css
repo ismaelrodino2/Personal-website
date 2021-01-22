@@ -1,5 +1,5 @@
 body, html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #header{
     width: 100%;
@@ -48,7 +48,7 @@ body, html{
 }
 #sobre{
     color: white;
-    background-image: linear-gradient(#110e09e0, rgba(255, 255, 255, 0.979));
+    background-image: linear-gradient(#000000e0, rgba(255, 255, 255, 0.979));
 }
 #sobre img{
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.733));}
@@ -99,7 +99,7 @@ body, html{
     border-radius: 20px;
     background-color: transparent;
 }
-#contato img:hover:not(.logo){
+#contato img:hover:not(.l){
     box-shadow: 6px 4px 11px 2px rgba(0,0,0,0.49);
     background-color: white;
     cursor: pointer;
@@ -110,3 +110,19 @@ body, html{
 footer a{
     text-decoration: none;
 }
+.logo img{
+    padding-left: 140px;
+}
+.escuro{
+    background-color: #000000;
+    opacity: 0.6;
+    box-shadow:6px 4px 11px 2px rgba(0,0,0,0.49);
+    padding: 10px 5px 3px 20px;
+    border-radius: 15px;
+}
+.btn:focus,.btn:active {
+    border: none;
+    border-color: none;
+    box-shadow: none;
+    background-color: var(--primary);
+ }
